@@ -2,21 +2,21 @@
 // Replace the arguments below according to your preference.
 
 // space, scary, military, romantic, cowboy, fantasy, superhero
-favouriteMovieGenre("cowboy")
+favouriteMovieGenre("space")
 
 // watermelon, tomato, banana, orange, avocado, blueberry
 favouriteFruit("banana")
 
 // light, dark
-favouriteMode("dark")
+favouriteMode("light")
 
 // sharp, soft, round
-favouriteEdgeStyle("round")
+favouriteEdgeStyle("soft")
 
 
 
 ////////////////////////////////////
-// IGNORE THE CODE BELOW THIS LINE //
+// IGONE THE CODE BELOW THIS LINE //
 ////////////////////////////////////
 
 function setProp(prop, value) {
