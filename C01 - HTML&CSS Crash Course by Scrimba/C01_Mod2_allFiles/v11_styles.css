@@ -1,0 +1,22 @@
+/* Here I am drawing
+a flag with 
+three stripes */
+
+.yellow {
+    background: yellow;
+    height: 200px;
+}
+
+.red {
+    background: red;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.green {
+    background: green;
+    height: 200px;    
+}
+
+/* The end of the CSS code */
