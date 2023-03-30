@@ -13,7 +13,6 @@ body {
     margin-top: 10px;        /* From 0px and upwards   */
 }
 
-
-
-
-
+img {
+    width: 300px;    
+}
