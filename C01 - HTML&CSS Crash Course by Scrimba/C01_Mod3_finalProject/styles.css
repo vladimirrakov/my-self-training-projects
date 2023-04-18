@@ -1,0 +1,49 @@
+body {
+    margin: 40px;
+}
+
+.business_card {
+    background: #264653;
+    color: #e9c46a;
+    border-bottom: 20px solid #e76f51;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image_avatar {
+    width: 180px;
+    border-radius: 15px;
+    margin: 15;
+}
+
+.column_left {
+    text-align: center;
+}
+
+.column_right {
+    text-align: right;
+}
+
+/* Below I applied a "Utility class" (blue dotted border line)
+to several elements */
+
+.border_blue {
+    border: 1px none #e76f51;
+}
+
+/*
+Video 17 
+https://scrimba.com/learn/htmlandcss/make-it-your-own-cobd74ef1ab096481c52ccdf8
+Goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
