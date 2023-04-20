@@ -1,0 +1,24 @@
+@font-face {
+    src: url("Corleone.ttf");
+    font-family: Corleone;
+}
+
+h1 {
+	font-family: Corleone;
+	font-size: 100px;
+}
+
+body {
+    color: white;
+    background-image: url("images/universe.jpg");
+    background-size: cover;
+	text-align: center;
+}
+
+.apply-button {
+	font-size: 23px;
+	padding: 5px 20px;
+	background: white;
+	border: none;
+	font-family: 'Orbitron', sans-serif;
+}
