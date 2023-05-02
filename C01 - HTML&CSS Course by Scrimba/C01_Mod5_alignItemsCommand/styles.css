@@ -1,0 +1,84 @@
+.container1 {
+    border: 8px solid #016a26;
+    height: 200px;
+    /*
+    Challenge:
+    Follow my orders on where we should
+    leave up our lab equipment!
+    
+    justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    align-items:
+    start, center, end
+    */
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.container2 {
+    margin-top: 10px;
+    border: 8px solid #016a26;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container3 {
+    margin-top: 10px;
+    border: 8px solid #016a26;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.container4 {
+    margin-top: 10px;
+    border: 8px solid #016a26;
+    height: 260px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.item1 {
+    width: 50px;
+    height: 90px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 4px solid red;
+    background: linear-gradient(red, yellow);
+}
+
+.item2 {
+    width: 50px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 4px solid red;
+    background: linear-gradient(red, yellow);
+}
+
+.item3 {
+    width: 50px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 4px solid red;
+    background: linear-gradient(red, yellow);
+}
+
+.item4 {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 4px solid red;
+    background: linear-gradient(red, yellow);
+}
