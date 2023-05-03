@@ -1,0 +1,25 @@
+div {
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 25px 0;
+    background: #e5383b;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu-section-1:hover {
+    background: #ba181d;
+    font-size: 40px;
+}
+
+.menu-section-2:hover {
+    background: #ba181d;
+    font-size: 40px;
+    color: yellow;
+    margin: 20px;
+}
+
+.menu-section-3:hover {
+    background-image: url("images/yaroslav.jpg");
+}
