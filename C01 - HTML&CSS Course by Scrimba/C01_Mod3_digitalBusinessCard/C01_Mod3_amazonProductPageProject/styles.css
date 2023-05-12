@@ -7,5 +7,66 @@ body {
 }
 
 .main-img {
-    box-shadow: 0px 2px 5px lightgray;
+    box-shadow: 0px 5px 5px lightgray;
+    width: 400px;
+}
+
+.ratings {
+    width: 120px;
+}
+
+#all-blocks {
+    display: flex;
+}
+
+a:link {
+    color: #007185;
+}
+  
+a:visited {
+    color: green;
+}
+  
+a:hover {
+    color: hotpink;
+}
+  
+a:active {
+    color: blue;
+}
+
+.product-image-block {
+    color: #565959;
+    padding: 30px;
+}
+
+.product-description-block {
+    padding: 30px;
+}
+
+.price-block {
+    padding: 30px;
+    margin: 50px 40px 820px 0px;
+    border: 5px solid lightgrey;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#buy-button {
+    background-color: orange;
+    border: none;
+    border-radius: 100px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#buy-button:hover {
+    font-weight: bold;
+    background: darkorange;
+}
+
+.price-amount {
+    color: red;
 }
