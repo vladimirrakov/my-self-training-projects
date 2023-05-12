@@ -1,10 +1,10 @@
 ### Hi there 👋
 - 🔭 I’m currently working on training projects while studying coding.
 - 🌱 I’m learning JavaScript, HTML and CSS.
-- 👯 I’m look forward to collabotaing on development of junior level projects.
-- 🤔 I’m looking for career advice in getting the first coding job.
-- 💬 Ask me about marketing in real and social media world, export/import of goods in trade, construction of timer houses, post-sale service of automobiles.
-- 📫 How to reach me: just email me here.
+- 👯 I’m look forward to collabotaing on junior level projects.
+- 🤔 I’m looking forward to meeting new people and netwroking.
+- 💬 Ask me about marketing in real and social media world, export/import of goods in trade, construction of timber houses, post-sale service of automobiles.
+- 📫 How to reach me: just email me at vlad.coding.365[at]gmail[dot]com.
 - ⚡ Fun fact: I am a fan of building and running van houses and modular tiny houses.
 
 <!--
