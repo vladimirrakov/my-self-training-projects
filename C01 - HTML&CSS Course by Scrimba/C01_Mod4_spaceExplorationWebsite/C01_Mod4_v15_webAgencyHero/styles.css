@@ -3,30 +3,28 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-p.normal {
-    font-weight: normal;
-}
-
-p.thick {
-    font-weight: bold;
-}
-
 .hero {
     border: 2px solid black;
     background-image: url("img/faded-office.png");
     background-size: cover;
-    padding: 50px 50px 150px 50px;
+    padding: 30px 50px 140px 80px;
+    margin: 20px;
 }
 
 .hero-header {
-    font-size: 24px;
-    line-height: 15px;
+    font-size: 55px;
+    line-height: 60px;
+    font-weight: 800;
+    width: 340px;
+    margin: 0;
 }
 
 .hero-text {
-    font-size: 20px;
-    margin: 80px 0px 80px 0px;
-    line-height: 10px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    width: 340px;
+    margin: 0 0 35px 0;
 }
 
 .underline {
@@ -36,7 +34,8 @@ p.thick {
 .button {
     background-color: #0ea5e9;
     color: white;
-    padding: 20px 60px;
+    padding: 20px 40px;
     border: none;
     font-size: 20px;
+    font-weight: bold;
 }
