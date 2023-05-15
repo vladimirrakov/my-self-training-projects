@@ -3,6 +3,8 @@
     width: 150px;
     border-radius: 100%;
     background: #BC002D;
+    margin: 50px auto;
+}
     
     /*  Step 1
     Instead of 4 lines below, I have
@@ -31,6 +33,5 @@
     margin-left: auto;
 
     New code:
+    margin: 50px auto;
     */
-    margin: 40px auto;
-}
