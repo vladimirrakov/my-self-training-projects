@@ -1,18 +1,44 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 body {
     margin: 0;
     text-align: center;
+    color: #020202;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
     width: 100px;
+}
+
+.text_highlight {
+    background-color: #ec0023;
+    padding: 0px 20px 0px 20px;
+}
+
+.text_underline {
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+.hero_section {
+    background-image: url("images/bern-welcome-picture.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px 120px 0px;
+    line-height: 31px;
+}
+
+.hero_header {
+    color: white;
+    text-shadow: 0px 0px 20px #020202;
+    width: 450px;
+}
+
+.hero_subheader {
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.788);
+    border-radius: 20px;
+    padding: 0px 20px 15px 20px;
 }
