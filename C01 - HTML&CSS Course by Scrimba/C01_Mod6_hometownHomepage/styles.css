@@ -6,7 +6,7 @@ body {
 }
 
 img {
-    width: 150px;
+    width: 250px;
 }
 
 .text_highlight {
@@ -50,11 +50,13 @@ img {
 
 .picture_header {
     font-weight: bold;
-    border: 2px solid #ec0023;
+    border-top: 4px solid #ec0023;
+    background-color: rgb(253, 189, 41);
+    height: 22px;
 }
 
 .picture_description_text {
-    width: 150px;
+    width: 250px;
 }
 
 .guide_section {
@@ -66,11 +68,12 @@ img {
     color: white;
     font-weight: bold;
     font-style: italic;
-    background-color: #5b5549be;
-    width: 400px;
+    background-color: #584c35be;
+    width: 450px;
     border-radius: 20px;
     padding: 20px 0px 20px 0px;
     margin: 0px auto;
+    box-shadow: 5px 5px #2a5b23;
 }
 
 .business_card {
@@ -82,6 +85,7 @@ img {
     padding: 20px 15px 15px 15px;
     display: flex;
     justify-content: space-around;
+    border-style: outset;
 }
 
 .image_avatar {
@@ -95,4 +99,51 @@ img {
 .column_right {
     text-align: right;
     text-shadow: 0px 0px 10px #020202;
+}
+
+button {
+    background: #FDBD29;
+    color: #020202;
+    font-weight: bold;
+    border: 3px solid #FDBD29;
+    border-radius: 15px;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+button:hover {
+    color: #020202;
+}
+
+button::after {
+    content: "";
+    background: #ffffff;
+    position: absolute;
+    z-index: -1;
+    padding: 13px 12px;
+    display: block;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+button[class^="grow"]::after {
+    transition: all 0.5s ease;
+}
+
+button[class^="grow"]:hover::after {
+    transition: all 0.3s ease-out;
+}
+
+.grow-box::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0);
+}
+
+.grow-box:hover::after {
+    transform: scale(1, 1);
 }
