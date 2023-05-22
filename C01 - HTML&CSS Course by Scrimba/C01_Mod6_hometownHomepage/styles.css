@@ -5,10 +5,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-img {
-    width: 250px;
-}
-
 .text_highlight {
     background-color: #ec0023;
     padding: 0px 20px 0px 20px;
@@ -28,6 +24,7 @@ img {
     align-items: center;
     padding: 100px 0px 120px 0px;
     line-height: 31px;
+    margin-bottom: 30px;
 }
 
 .hero_header {
@@ -45,7 +42,8 @@ img {
 
 .activities_section {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }
 
 .picture_header {
@@ -53,10 +51,37 @@ img {
     border-top: 4px solid #ec0023;
     background-color: rgb(253, 189, 41);
     height: 22px;
+    width: 250px;
+        border-radius: 20px;
+}
+
+img {
+    width: 250px;
+    border-radius: 20px;
 }
 
 .picture_description_text {
     width: 250px;
+}
+
+@media (max-width:950px) {
+    .activities_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .picture_header {
+        width: 350px;
+    }
+
+    img {
+        width: 350px;
+    }
+
+    .picture_description_text {
+        width: 350px;
+    }
 }
 
 .guide_section {
@@ -72,7 +97,7 @@ img {
     width: 450px;
     border-radius: 20px;
     padding: 20px 0px 20px 0px;
-    margin: 0px auto;
+    margin: 30px auto 30px auto;
     box-shadow: 5px 5px #2a5b23;
 }
 
@@ -81,7 +106,7 @@ img {
     color: white;
     border-bottom: 20px solid #020202;
     width: 350px;
-    margin: 0 auto 100px auto;
+    margin: 20px auto 100px auto;
     padding: 20px 15px 15px 15px;
     display: flex;
     justify-content: space-around;
