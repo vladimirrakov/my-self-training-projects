@@ -42,17 +42,18 @@ body {
 
 .activities_section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
 }
 
-.picture_header {
+.activities_img_header {
     font-weight: bold;
     border-top: 4px solid #ec0023;
     background-color: rgb(253, 189, 41);
     height: 22px;
     width: 250px;
-        border-radius: 20px;
+    border-radius: 20px;
 }
 
 img {
@@ -60,18 +61,12 @@ img {
     border-radius: 20px;
 }
 
-.picture_description_text {
+.activities_img_description_text {
     width: 250px;
 }
 
 @media (max-width:950px) {
-    .activities_section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .picture_header {
+    .activities_img_header {
         width: 350px;
     }
 
@@ -79,7 +74,7 @@ img {
         width: 350px;
     }
 
-    .picture_description_text {
+    .activities_img_description_text {
         width: 350px;
     }
 }
