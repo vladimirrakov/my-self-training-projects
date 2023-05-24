@@ -1,0 +1,197 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    color: #020202;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #d3d3d3;
+}
+
+/* HERO SECTION */
+
+.hero_section {
+    background-image: url("images/bern-title-picture-5670x3381.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px 120px 0px;
+    line-height: 31px;
+    margin-bottom: 30px;
+}
+
+.hero_section_title {
+    color: white;
+    text-shadow: 0px 0px 20px #020202;
+    width: 450px;
+}
+
+.hero_section_title_highlight {
+    background-color: #ec0023;
+    padding: 0px 20px 0px 20px;
+}
+
+.hero_section_caption {
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.788);
+    border-radius: 20px;
+    padding: 0px 0px 10px 0px;
+}
+
+.hero_section_caption_underline {
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+/* ACTIVITIES SECTION */
+
+.activities_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.activities_block {
+    margin: 0 50px 0 50px;
+}
+
+.activities_title {
+    font-weight: bold;
+    border-top: 4px solid #ec0023;
+    background-color: rgb(253, 189, 41);
+    height: 22px;
+    border-radius: 20px;
+}
+
+.activities_image {
+    border-radius: 20px;
+    width: 250px;
+}
+
+.activities_description {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* GUIDE SECTION */
+
+.guide_section {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.quotation {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #584c35be;
+    width: 450px;
+    border-radius: 20px;
+    padding: 20px 0px 20px 0px;
+    margin: 30px auto 30px auto;
+    box-shadow: 5px 5px #2a5b23;
+}
+
+.business_card {
+    background: #ec0023;
+    color: white;
+    border-bottom: 20px solid #020202;
+    width: 350px;
+    margin: 20px auto 100px auto;
+    padding: 20px 15px 15px 15px;
+    display: flex;
+    justify-content: space-around;
+    border-style: outset;
+}
+
+.image_avatar {
+    width: 120px;
+}
+
+.column_left {
+    text-align: center;
+}
+
+.column_right {
+    text-align: right;
+    text-shadow: 0px 0px 10px #020202;
+}
+
+button {
+    background: #FDBD29;
+    color: #020202;
+    font-weight: bold;
+    border: 3px solid #FDBD29;
+    border-radius: 15px;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+button:hover {
+    color: #020202;
+}
+
+button::after {
+    content: "";
+    background: #ffffff;
+    position: absolute;
+    z-index: -1;
+    padding: 13px 12px;
+    display: block;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+button[class^="grow"]::after {
+    transition: all 0.5s ease;
+}
+
+button[class^="grow"]:hover::after {
+    transition: all 0.3s ease-out;
+}
+
+.grow-box::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0);
+}
+
+.grow-box:hover::after {
+    transform: scale(1, 1);
+}
+
+@media (min-width: 375px) {
+    .activities_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activities_title {
+        width: 100%;
+    }
+
+    .activities_image {
+        width: 100%;
+    }
+
+    .activities_description {
+        width: 100%;
+    }
+
+    .guide_section {
+        width: 100%;
+    }
+
+    .quotation {
+        width: auto;
+        margin: 30px 90px 30px 80px;
+    }
+}
