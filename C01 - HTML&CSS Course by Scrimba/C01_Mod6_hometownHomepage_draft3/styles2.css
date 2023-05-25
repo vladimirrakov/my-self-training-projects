@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+h1, h2, h3 {
+    background-color: aqua;
+}
+
+p {
+    background-color: yellow;
+}
+
+.class_div_1 {
+    background-color: red;
+    color: blue;
+    border: 2px solid green;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.class_div_2 {
+    color: blue;
+    border: 2px solid green;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}

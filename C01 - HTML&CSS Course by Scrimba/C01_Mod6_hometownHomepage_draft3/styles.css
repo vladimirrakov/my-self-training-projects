@@ -16,11 +16,12 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 750px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 100px 0px 120px 0px;
-    line-height: 31px;
+    line-height: 30px;
     margin-bottom: 30px;
 }
 
@@ -54,11 +55,16 @@ body {
     justify-content: space-around;
 }
 
-.activities_block {
-    margin: 0 50px 0 50px;
+.activities_section_title {
+    font-size: 30px;
 }
 
-.activities_title {
+.activities_block {
+    margin: 0 50px 0 50px;
+    width: 250px;
+}
+
+.activities_name {
     font-weight: bold;
     border-top: 4px solid #ec0023;
     background-color: rgb(253, 189, 41);
@@ -167,31 +173,10 @@ button[class^="grow"]:hover::after {
     transform: scale(1, 1);
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     .activities_section {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .activities_title {
-        width: 100%;
-    }
-
-    .activities_image {
-        width: 100%;
-    }
-
-    .activities_description {
-        width: 100%;
-    }
-
-    .guide_section {
-        width: 100%;
-    }
-
-    .quotation {
-        width: auto;
-        margin: 30px 90px 30px 80px;
     }
 }

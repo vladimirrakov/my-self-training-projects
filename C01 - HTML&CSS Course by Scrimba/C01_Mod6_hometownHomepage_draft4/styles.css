@@ -1,0 +1,240 @@
+/* ACTIVATE THE BELOW CODE IN THE END OF THE PROJECT
+    .activities-section__img:hover {
+    width: 250px;
+    border-radius: 10%;
+    border: 3px solid #002962;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    color: #020202;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 40px 20px 30px 20px;
+}
+
+/* HERO SECTION */
+
+.hero_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/bern-title-picture-5670x3381.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    padding: 0 40px;
+}
+
+.hero_section_title {
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0px 0px 20px #020202;
+    background-color: #d60909;
+    padding: 5px 30px 5px 30px;
+}
+
+.hero_section_caption {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 5px 10px 10px 10px;
+    width: 50%;
+}
+
+.hero_section_caption_underline {
+    border-bottom: 2px solid #d60909;
+}
+
+/* ACTIVITY SECTION */
+
+.activity_section_title {
+    font-size: 30px;
+    padding: 40px 20px 30px 20px;
+}
+
+.activity_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.activity_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px 0 30px;
+    width: 350px;
+}
+
+.activity_name {
+    font-weight: bold;
+    border-top: 4px solid #d60909;
+    background-color: rgb(253, 189, 41);
+    height: 22px;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.activity_image {
+    border-radius: 20px;
+    width: 300px;
+    margin: 20px 0 20px 0;
+}
+
+.activity_image:hover {
+    width: 305px;
+    border: 5px solid #2a5b23;
+}
+
+.activity_description {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* QUOTATION SECTION */
+
+.quotation_section_title {
+    font-size: 30px;
+    padding: 40px 20px 30px 20px;
+}
+
+.quotation_text {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    background-color: #584c35be;
+    border-radius: 20px;
+    box-shadow: 5px 5px #2a5b23;
+    width: 50%;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+}
+
+.highlighted_quotation_text {
+    font-weight: bold;
+    color: #FDBD29;
+    border-bottom: 1px solid #FDBD29;
+    text-shadow: 0px 0px 20px #2a5b23;
+}
+
+/* GUIDE SECTION */
+
+footer {
+    margin-bottom: 90px;
+}
+
+.footer_title {
+    font-size: 30px;
+    padding: 40px 20px 0px 20px;
+}
+
+.footer_section {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FDBD29;
+    padding: 30px;
+
+}
+
+.footer_section_image {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.footer_section_image img {
+    width: auto;
+    height: 135%;
+    margin-top: -45px;
+
+}
+
+.footer_section_elements {
+    margin: 30px;
+    width: 500px;
+}
+
+.footer_section_heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer_section_caption {
+    font-size: 20px;
+}
+
+.copyright_footer_text {
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* BUTTON WITH HOVER EFFECT */
+
+button {
+    background: #d60909;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #d60909;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+button:hover {
+    color: #020202;
+}
+
+button::after {
+    content: "";
+    background: #ffffff;
+    position: absolute;
+    z-index: -1;
+    padding: 13px 12px;
+    display: block;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+button[class^="grow"]::after {
+    transition: all 0.5s ease;
+}
+
+button[class^="grow"]:hover::after {
+    transition: all 0.3s ease-out;
+}
+
+.grow-box::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0);
+}
+
+.grow-box:hover::after {
+    transform: scale(1, 1);
+}
