@@ -3,8 +3,13 @@ body {
 	color: slategray;
 }
 
+#container {
+	width: 60%;
+	margin: auto;
+}
+
 h1 {
-	font-size: 300%;	
+	font-size: 300%;
 }
 
 h1,
@@ -30,17 +35,12 @@ footer p {
 	padding-bottom: 15px;
 }
 
-#container {
-	width: 60%;
-	margin: auto;
-}
-
 @media screen and (max-width: 768px) {
 	#container {
-		width: 90%;	
+		width: 90%;
 	}
-	
+
 	h1 {
-		font-size: 200%;	
+		font-size: 200%;
 	}
 }
